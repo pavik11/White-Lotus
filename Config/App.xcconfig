@@ -1,0 +1,5 @@
+// Shared configuration; the private include is optional on a fresh clone.
+#include? "Secrets.local.xcconfig"
+
+// Public template contains a variable reference, never a credential.
+INFOPLIST_FILE = $(SRCROOT)/Config/Info.plist

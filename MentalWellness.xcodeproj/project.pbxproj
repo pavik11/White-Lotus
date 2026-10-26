@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BBD0356729FA859793D0B4 /* WellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4FB0DFD30FA5BD480567F /* WellnessUITests.swift */; };
+		04A37BE78C25E7476D46CC46 /* MindfulnessDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3E6828CC869FBCE450210 /* MindfulnessDataLoader.swift */; };
+		07F8597DDF409D342BA33A90 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660F58192508DF3B22F9E833 /* ChatMessage.swift */; };
+		0B8901A4A90DC5657E70647A /* SafetyAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112D1975F388C056725F869 /* SafetyAgreementView.swift */; };
+		0E75E291FBD4F1881F336CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E916907CAE416B89F25BF /* SettingsView.swift */; };
+		133084AEE0191A9FA72D0F24 /* MentalWellnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA490B949991D4A7F1C1F90 /* MentalWellnessApp.swift */; };
+		17AADB0DDCCFD75A396062BF /* GeminiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A20F34740C801ED85780D /* GeminiServiceTests.swift */; };
+		238398EF5BCBB3A9504E73C9 /* SupportResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE58E37251FEA011268B335 /* SupportResource.swift */; };
+		33AA49ECF5170934251D23E1 /* CrisisInterventionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F35C9FA8651E7815FC546E /* CrisisInterventionView.swift */; };
+		508A8ED8397CF28792523079 /* StorageAndSafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607B31B70F827E9FC6A6BE2 /* StorageAndSafetyTests.swift */; };
+		618C25AA7DE1B14A834F1233 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012372F336AE3AA3C731F880 /* Secrets.swift */; };
+		6827BE09BC6052A79869C833 /* LocalChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F5C00B3C24D39645BA39F /* LocalChatStore.swift */; };
+		6D40B0F8EB69036DBF2CB919 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CD774F8C46B4685BA5E70E5A /* PrivacyInfo.xcprivacy */; };
+		6F191154890ACE1C138BAC5F /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8066906B044DCF77A0E8F /* Persona.swift */; };
+		752D907812449A8D26667714 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399ABBCA5600DBD331CBE5BE /* ChatViewModel.swift */; };
+		7DD37C3D21E51C2FB9750B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05529D7BAF9BE1F1AD75AA78 /* Assets.xcassets */; };
+		8956D1D68E822729AF4801D3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A594CE9EB9856B4BB8C52E /* WelcomeView.swift */; };
+		8DF23F9050A49B550A20555A /* SupportResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6923AD4FEF45ACA33795AAA3 /* SupportResourcesView.swift */; };
+		9FE3ACADC72DBA4E78D4FDF9 /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDE39F060F8CC9CCAAC499 /* ChatViewModelTests.swift */; };
+		B4044B693B3FB682170AC775 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6F92DC75999B5AD605CB2 /* Theme.swift */; };
+		B472D91ED4E8D99D87B34033 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C034BD6BB2D8E02D489147 /* ChatView.swift */; };
+		CEDEFF5E4DA2682D60030FC4 /* SafetyInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CB7E8DAF80C60B07AFDC3 /* SafetyInterceptor.swift */; };
+		CFFE5284943E60B7146FEC17 /* mindfulness_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = B0FE229A3E0AC70DF66D842C /* mindfulness_data.txt */; };
+		D4C0D942B877DC280C7CAA7B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58012C84FA65FAB1011D05E9 /* DashboardView.swift */; };
+		E1843FFB25AD4014C8AEDA06 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E44176DD083A4FF3900A99 /* GeminiService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8619E39B688A33CB92F66F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1A045E96B998B40533C7FF;
+			remoteInfo = MentalWellness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+        6AE27F664CD0832AD1AAA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        BF78CF3F694CEF02410C1535 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+        7F49661560A6546CA0DA5B5B /* Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.example.xcconfig; sourceTree = "<group>"; };
+		012372F336AE3AA3C731F880 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		05529D7BAF9BE1F1AD75AA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EC12B639704C74E4FD9C6D2 /* MentalWellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalWellnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C034BD6BB2D8E02D489147 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2112D1975F388C056725F869 /* SafetyAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAgreementView.swift; sourceTree = "<group>"; };
+		399ABBCA5600DBD331CBE5BE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		42C59AF8A4BAE559BC5A5D5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43EED9E63D18EC925DD670BD /* MentalWellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalWellness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BDE39F060F8CC9CCAAC499 /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
+		4BC3E6828CC869FBCE450210 /* MindfulnessDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulnessDataLoader.swift; sourceTree = "<group>"; };
+		4EBD7701B348B93342227820 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		574E916907CAE416B89F25BF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		58012C84FA65FAB1011D05E9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		58D4FB0DFD30FA5BD480567F /* WellnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessUITests.swift; sourceTree = "<group>"; };
+		5BA8066906B044DCF77A0E8F /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		660F58192508DF3B22F9E833 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		6923AD4FEF45ACA33795AAA3 /* SupportResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportResourcesView.swift; sourceTree = "<group>"; };
+		6DA490B949991D4A7F1C1F90 /* MentalWellnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalWellnessApp.swift; sourceTree = "<group>"; };
+		74A594CE9EB9856B4BB8C52E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A2C6F92DC75999B5AD605CB2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A607B31B70F827E9FC6A6BE2 /* StorageAndSafetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAndSafetyTests.swift; sourceTree = "<group>"; };
+		A76D39BF57CD2F53FBD6FD7E /* MentalWellnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalWellnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FE229A3E0AC70DF66D842C /* mindfulness_data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mindfulness_data.txt; sourceTree = "<group>"; };
+		BD6CB7E8DAF80C60B07AFDC3 /* SafetyInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyInterceptor.swift; sourceTree = "<group>"; };
+		C03A20F34740C801ED85780D /* GeminiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiServiceTests.swift; sourceTree = "<group>"; };
+		C3BD03757021BC3AB59166EE /* PRD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRD.md; sourceTree = "<group>"; };
+		C3F35C9FA8651E7815FC546E /* CrisisInterventionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrisisInterventionView.swift; sourceTree = "<group>"; };
+		CD774F8C46B4685BA5E70E5A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D1CBE80F6C091612B02C4182 /* VERIFICATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VERIFICATION.md; sourceTree = "<group>"; };
+		E5E44176DD083A4FF3900A99 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		E98F5C00B3C24D39645BA39F /* LocalChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalChatStore.swift; sourceTree = "<group>"; };
+		FDE58E37251FEA011268B335 /* SupportResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportResource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15618B86280CF19EC5A23B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B85B821D2F93F337F70D49F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44383D67A1AE4EBBF79F9702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        A29F4DA6CB01F07490C5FF56 /* Config */ = {
+            isa = PBXGroup;
+            children = (6AE27F664CD0832AD1AAA396 /* Info.plist */, BF78CF3F694CEF02410C1535 /* App.xcconfig */, 7F49661560A6546CA0DA5B5B /* Secrets.example.xcconfig */);
+            path = Config;
+            sourceTree = "<group>";
+        };
+		03D812B77F262A40416809E8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				399ABBCA5600DBD331CBE5BE /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		369366657F0CC118760331FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0FE229A3E0AC70DF66D842C /* mindfulness_data.txt */,
+				05529D7BAF9BE1F1AD75AA78 /* Assets.xcassets */,
+				CD774F8C46B4685BA5E70E5A /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B8B2B5CD808F874BF4EE1BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5E44176DD083A4FF3900A99 /* GeminiService.swift */,
+				E98F5C00B3C24D39645BA39F /* LocalChatStore.swift */,
+				4BC3E6828CC869FBCE450210 /* MindfulnessDataLoader.swift */,
+				BD6CB7E8DAF80C60B07AFDC3 /* SafetyInterceptor.swift */,
+				012372F336AE3AA3C731F880 /* Secrets.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6C923F6D92369A43B16924F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6923AD4FEF45ACA33795AAA3 /* SupportResourcesView.swift */,
+				14C034BD6BB2D8E02D489147 /* ChatView.swift */,
+				C3F35C9FA8651E7815FC546E /* CrisisInterventionView.swift */,
+				58012C84FA65FAB1011D05E9 /* DashboardView.swift */,
+				2112D1975F388C056725F869 /* SafetyAgreementView.swift */,
+				574E916907CAE416B89F25BF /* SettingsView.swift */,
+				A2C6F92DC75999B5AD605CB2 /* Theme.swift */,
+				74A594CE9EB9856B4BB8C52E /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DC4FAD667A85B8567F612FB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C03A20F34740C801ED85780D /* GeminiServiceTests.swift */,
+				49BDE39F060F8CC9CCAAC499 /* ChatViewModelTests.swift */,
+				A607B31B70F827E9FC6A6BE2 /* StorageAndSafetyTests.swift */,
+				58D4FB0DFD30FA5BD480567F /* WellnessUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A2A9809DAF0AEE6960B34B37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDE58E37251FEA011268B335 /* SupportResource.swift */,
+				660F58192508DF3B22F9E833 /* ChatMessage.swift */,
+				5BA8066906B044DCF77A0E8F /* Persona.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE7805B56D1DCAFAA071416F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43EED9E63D18EC925DD670BD /* MentalWellness.app */,
+				A76D39BF57CD2F53FBD6FD7E /* MentalWellnessTests.xctest */,
+				0EC12B639704C74E4FD9C6D2 /* MentalWellnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5D242D023A9271190EA7C6 /* root */ = {
+			isa = PBXGroup;
+			children = (
+                A29F4DA6CB01F07490C5FF56 /* Config */,
+				6DA490B949991D4A7F1C1F90 /* MentalWellnessApp.swift */,
+				A2A9809DAF0AEE6960B34B37 /* Models */,
+				6C923F6D92369A43B16924F4 /* Views */,
+				03D812B77F262A40416809E8 /* ViewModels */,
+				6B8B2B5CD808F874BF4EE1BA /* Services */,
+				369366657F0CC118760331FE /* Resources */,
+				6DC4FAD667A85B8567F612FB /* Tests */,
+				42C59AF8A4BAE559BC5A5D5D /* README.md */,
+				C3BD03757021BC3AB59166EE /* PRD.md */,
+				4EBD7701B348B93342227820 /* AGENTS.md */,
+				D1CBE80F6C091612B02C4182 /* VERIFICATION.md */,
+				AE7805B56D1DCAFAA071416F /* Products */,
+			);
+			name = root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5AAAA25D3CDD1306308313 /* MentalWellnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544F698A8E12BF9D2E8898B5 /* Build configuration list for PBXNativeTarget "MentalWellnessUITests" */;
+			buildPhases = (
+				F710371968DAABAEE5E1455F /* Sources */,
+				44383D67A1AE4EBBF79F9702 /* Frameworks */,
+				10ECDE6384800F75B85108CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F33F0DF5D562F7B2106E58 /* PBXTargetDependency */,
+			);
+			name = MentalWellnessUITests;
+			productName = MentalWellnessUITests;
+			productReference = 0EC12B639704C74E4FD9C6D2 /* MentalWellnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		54B28AD096EFC1E350C944C8 /* MentalWellnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB178E7F450A3FA8EFE22116 /* Build configuration list for PBXNativeTarget "MentalWellnessTests" */;
+			buildPhases = (
+				2554E01992FF957EF79C4C5E /* Sources */,
+				15618B86280CF19EC5A23B9C /* Frameworks */,
+				9617DF695A03C5EFF02D9AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F33F0DF5D562F7B2106E58 /* PBXTargetDependency */,
+			);
+			name = MentalWellnessTests;
+			productName = MentalWellnessTests;
+			productReference = A76D39BF57CD2F53FBD6FD7E /* MentalWellnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C1A045E96B998B40533C7FF /* MentalWellness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA7C6DD60DC323C7F3FA76C /* Build configuration list for PBXNativeTarget "MentalWellness" */;
+			buildPhases = (
+				17655138DE091C505416ABEA /* Sources */,
+				1B85B821D2F93F337F70D49F /* Frameworks */,
+				D18FD5E61A9286359343951E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentalWellness;
+			productName = MentalWellness;
+			productReference = 43EED9E63D18EC925DD670BD /* MentalWellness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244210E48437B6556980A702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1650;
+				LastUpgradeCheck = 1650;
+				TargetAttributes = {
+					3C5AAAA25D3CDD1306308313 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8C1A045E96B998B40533C7FF;
+					};
+					54B28AD096EFC1E350C944C8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8C1A045E96B998B40533C7FF;
+					};
+					8C1A045E96B998B40533C7FF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 1922B098E983995960BE56B0 /* Build configuration list for PBXProject "MentalWellness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5D242D023A9271190EA7C6 /* root */;
+			productRefGroup = AE7805B56D1DCAFAA071416F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1A045E96B998B40533C7FF /* MentalWellness */,
+				54B28AD096EFC1E350C944C8 /* MentalWellnessTests */,
+				3C5AAAA25D3CDD1306308313 /* MentalWellnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ECDE6384800F75B85108CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9617DF695A03C5EFF02D9AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18FD5E61A9286359343951E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFE5284943E60B7146FEC17 /* mindfulness_data.txt in Resources */,
+				7DD37C3D21E51C2FB9750B24 /* Assets.xcassets in Resources */,
+				6D40B0F8EB69036DBF2CB919 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17655138DE091C505416ABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF23F9050A49B550A20555A /* SupportResourcesView.swift in Sources */,
+				238398EF5BCBB3A9504E73C9 /* SupportResource.swift in Sources */,
+				133084AEE0191A9FA72D0F24 /* MentalWellnessApp.swift in Sources */,
+				07F8597DDF409D342BA33A90 /* ChatMessage.swift in Sources */,
+				6F191154890ACE1C138BAC5F /* Persona.swift in Sources */,
+				B472D91ED4E8D99D87B34033 /* ChatView.swift in Sources */,
+				33AA49ECF5170934251D23E1 /* CrisisInterventionView.swift in Sources */,
+				D4C0D942B877DC280C7CAA7B /* DashboardView.swift in Sources */,
+				0B8901A4A90DC5657E70647A /* SafetyAgreementView.swift in Sources */,
+				0E75E291FBD4F1881F336CAD /* SettingsView.swift in Sources */,
+				B4044B693B3FB682170AC775 /* Theme.swift in Sources */,
+				8956D1D68E822729AF4801D3 /* WelcomeView.swift in Sources */,
+				752D907812449A8D26667714 /* ChatViewModel.swift in Sources */,
+				E1843FFB25AD4014C8AEDA06 /* GeminiService.swift in Sources */,
+				6827BE09BC6052A79869C833 /* LocalChatStore.swift in Sources */,
+				04A37BE78C25E7476D46CC46 /* MindfulnessDataLoader.swift in Sources */,
+				CEDEFF5E4DA2682D60030FC4 /* SafetyInterceptor.swift in Sources */,
+				618C25AA7DE1B14A834F1233 /* Secrets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554E01992FF957EF79C4C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AADB0DDCCFD75A396062BF /* GeminiServiceTests.swift in Sources */,
+				9FE3ACADC72DBA4E78D4FDF9 /* ChatViewModelTests.swift in Sources */,
+				508A8ED8397CF28792523079 /* StorageAndSafetyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F710371968DAABAEE5E1455F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BBD0356729FA859793D0B4 /* WellnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F33F0DF5D562F7B2106E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1A045E96B998B40533C7FF /* MentalWellness */;
+			targetProxy = 8619E39B688A33CB92F66F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AD01DBE8A13A9239910A737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalWellness;
+			};
+			name = Debug;
+		};
+		5C35332B7C51C9FED5E3564B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalWellness.app/MentalWellness";
+			};
+			name = Debug;
+		};
+		6D7ED78B5D80D2C8707347CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalWellness.app/MentalWellness";
+			};
+			name = Release;
+		};
+		8DB23D5B0AA80A48AA651830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9EAD837FC534F215334001B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalWellness;
+			};
+			name = Release;
+		};
+		AB00255049ED0D95F2F0606D /* Debug */ = {
+			isa = XCBuildConfiguration;
+            baseConfigurationReference = BF78CF3F694CEF02410C1535 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2S9PSSLRY9;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "White Lotus";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A96B521F3D78469F32E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+            baseConfigurationReference = BF78CF3F694CEF02410C1535 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2S9PSSLRY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "White Lotus";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.congressionalchallenge.alittlespace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDD3EA28A0B1309668A442B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1922B098E983995960BE56B0 /* Build configuration list for PBXProject "MentalWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD3EA28A0B1309668A442B2 /* Debug */,
+				8DB23D5B0AA80A48AA651830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544F698A8E12BF9D2E8898B5 /* Build configuration list for PBXNativeTarget "MentalWellnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD01DBE8A13A9239910A737 /* Debug */,
+				9EAD837FC534F215334001B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA7C6DD60DC323C7F3FA76C /* Build configuration list for PBXNativeTarget "MentalWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00255049ED0D95F2F0606D /* Debug */,
+				D4A96B521F3D78469F32E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB178E7F450A3FA8EFE22116 /* Build configuration list for PBXNativeTarget "MentalWellnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C35332B7C51C9FED5E3564B /* Debug */,
+				6D7ED78B5D80D2C8707347CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244210E48437B6556980A702 /* Project object */;
+}

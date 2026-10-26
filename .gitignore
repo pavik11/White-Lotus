@@ -1,0 +1,46 @@
+# Real credentials: keep only the blank example config in Git.
+/Config/Secrets.local.xcconfig
+**/Secrets.local.xcconfig
+.env
+.env.*
+!.env.example
+*.local.env
+
+# Xcode user-specific settings, private schemes, and editor state.
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Builds and exports can contain the generated Info.plist with a local API key.
+DerivedData/
+build/
+.build/
+*.app/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+*.xcresult/
+
+# Local signing identities and provisioning material.
+*.p12
+*.p8
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+
+# Local chat data, if copied into the project for troubleshooting.
+WellnessChats/
+WellnessUITestChats/
+
+# macOS metadata and local editor files.
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
